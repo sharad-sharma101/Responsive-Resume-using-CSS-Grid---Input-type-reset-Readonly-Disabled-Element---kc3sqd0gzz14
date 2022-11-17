@@ -7,3 +7,89 @@
 }
 
 /* Write CSS code below */
+.main-content{
+    display: grid;
+    width: 90%;
+    margin: 20px auto;
+    min-height: 1000px;
+    grid-template-columns: 300px 700px;
+    
+   
+}
+.left-section{
+    background-color: rgb(4, 4, 130);
+    padding: 1rem;
+    color: white;
+}
+.right-section{
+    background-color: rgb(48, 244, 244);
+}
+.profile-image img{
+    display: block;
+    margin: auto;
+    border: 5px solid white;
+    border-radius: 30%;
+    width: 60%;
+}
+.name{
+    font-size: 1.2rem;
+    font-weight: 700;
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 0.02px;
+    padding: 0.8rem;
+}
+.designation{
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-align: center;
+    padding-bottom: 0.5rem;
+}
+.description{
+    font-size: 0.75rem;
+    text-align: center;
+    padding: 1rem;
+}
+.icon{
+    text-align: center;
+}
+.icon a i{
+    font-size: 30px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.skills{
+    font-size: 0.75rem;
+    text-align: center;
+    text-transform: uppercase;
+    padding: 1rem 0.5rem;
+}
+.skill-name{
+ font-size: 0.65rem;
+ font-weight: 0.65rem;
+ text-align: left;
+ padding-bottom: 0.5rem;
+}
+.progress-bar{
+    border: 1px solid white;
+    height: 4px;
+}
+.right-main-content{
+    padding: 2rem 3rem;
+}
+.right-title{
+    text-transform: uppercase;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.5rem ;
+    letter-spacing: 1px;
+}
+
+
+
+@media screen and (max-width: 674px) {
+    .main-content{
+        grid-template-columns: repeat(1 , 1fr);
+        min-height: 1000px;
+    }
+}
