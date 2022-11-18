@@ -19,10 +19,12 @@
 .left-section{
     background-color: rgb(4, 4, 130);
     padding: 1rem;
+    grid-column: span 1;
     color: white;
 }
 .right-section{
     background-color: rgb(48, 244, 244);
+    grid-column: span 1 / span 2;
 }
 .profile-image img{
     display: block;
