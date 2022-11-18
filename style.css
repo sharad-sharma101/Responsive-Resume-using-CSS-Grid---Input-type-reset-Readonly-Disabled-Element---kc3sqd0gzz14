@@ -20,9 +20,13 @@
     background-color: rgb(4, 4, 130);
     padding: 1rem;
     color: white;
+    height: 1000px;
+    width: 300px;
 }
 .right-section{
     background-color: rgb(48, 244, 244);
+    height: 1000px;
+    width: 700px;
 }
 .profile-image img{
     display: block;
@@ -87,9 +91,8 @@
 
 
 
-@media screen and (max-width: 674px) {
+@media screen and (max-width: 673px) {
     .main-content{
         grid-template-columns: repeat(1 , 1fr);
-        min-height: 1000px;
     }
 }
