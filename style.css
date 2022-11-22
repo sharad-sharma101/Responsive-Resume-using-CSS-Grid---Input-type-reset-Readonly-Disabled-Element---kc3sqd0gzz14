@@ -91,20 +91,40 @@
 
 @media screen and (max-width: 673px) {
     .main-content{
-        grid-template-columns: repeat(1 , 1fr);
-        min-width: 1000px;
-        width: 90%;
         display: grid;
-        margin: 20px auto;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .left-section{
+        display: grid;
+    }
+
+    .right-section{
+        display: grid;
+    }
+
+    .profile-details{
+        display: flex;
+        justify-content: center;
     }
 }
 
 @media screen and (max-width: 630px) {
     .main-content{
-        grid-template-columns: repeat(1 , 1fr);
-        min-width: 1000px;
         display: grid;
-        width: 90%;
-        margin: 20px auto;
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .left-section{
+        display: grid;
+    }
+
+    .right-section{
+        display: grid;
+    }
+
+    .profile-details{
+        display: flex;
+        justify-content: center;
     }
 }
